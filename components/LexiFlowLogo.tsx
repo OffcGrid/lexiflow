@@ -8,16 +8,16 @@ interface LexiFlowLogoProps {
 
 const LexiFlowLogo: React.FC<LexiFlowLogoProps> = ({ fontSize = 32, color }) => {
 
-  // الألوان الافتراضية للهوية البصرية
+  
   const defaultColors = {
     lexi: '#1A3644',
     flow: '#586451',
-    oLetter: '#63cfaf', // اللون المميز لحرف O
+    oLetter: '#63cfaf', 
   };
 
   return (
     <View style={styles.logoWrapper}>
-      {/* الجزء الأول: LEXI */}
+      
       <Text style={[
         styles.baseText, 
         { fontSize, color: color || defaultColors.lexi }
@@ -25,7 +25,6 @@ const LexiFlowLogo: React.FC<LexiFlowLogoProps> = ({ fontSize = 32, color }) => 
         LEXI
       </Text>
       
-      {/* الجزء الثاني: FL */}
       <Text style={[
         styles.baseText, 
         { fontSize, color: color || defaultColors.flow }
@@ -33,19 +32,19 @@ const LexiFlowLogo: React.FC<LexiFlowLogoProps> = ({ fontSize = 32, color }) => 
         FL
       </Text>
 
-      {/* حرف O الطبيعي والسميك */}
+      
       <Text style={[
         styles.baseText, 
         { 
-          fontSize: fontSize * 1.05, // تكبير بسيط جداً ليتناسب بصرياً مع الدائرة السابقة
+          fontSize: fontSize * 1.05,
           color: color || defaultColors.oLetter,
-          marginHorizontal: 1 // مسافة ضيقة جداً ليبقى التصميم متلاحماً
+          marginHorizontal: 1 
         }
       ]}>
         O
       </Text>
 
-      {/* الجزء الأخير: W */}
+      
       <Text style={[
         styles.baseText, 
         { fontSize, color: color || defaultColors.flow }
@@ -63,8 +62,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   baseText: {
-    fontWeight: '900', // جعل جميع الأحرف Bold بنفس الدرجة
-    letterSpacing: -0.5, // تقريب الأحرف من بعضها ليعطي شعور الـ Logo
+    fontWeight: '900',
+    letterSpacing: -0.5, 
   },
 });
 
