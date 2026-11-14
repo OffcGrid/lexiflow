@@ -67,7 +67,7 @@ const SettingsScreen: React.FC = () => {
         showsVerticalScrollIndicator={false}
       >
 
-        {/* القسم الأول: المشاركة */}
+        
         <View className="bg-white rounded-[25px] mb-[18px] overflow-hidden shadow-sm border border-gray-100">
           <SettingItem 
             icon={<Ionicons name="share-social" size={20} color="#3B82F6" />}
@@ -78,7 +78,7 @@ const SettingsScreen: React.FC = () => {
           />
         </View>
 
-        {/* القسم الثاني: التفضيلات */}
+        
         <View className="bg-white rounded-[25px] mb-[18px] overflow-hidden shadow-sm border border-gray-100">
           <SettingItem 
             icon={<Ionicons name="language" size={20} color="#10B981" />}
@@ -104,7 +104,7 @@ const SettingsScreen: React.FC = () => {
           />
         </View>
 
-        {/* القسم الثالث: الدعم والقانونية */}
+        
         <View className="bg-white rounded-[25px] mb-[20px] overflow-hidden shadow-sm border border-gray-100">
           <SettingItem 
             icon={<MaterialIcons name="chat-bubble" size={20} color="#F59E0B" />}
