@@ -10,7 +10,7 @@ React Native (Expo) app for translation, chat and PDF word lookup using an on-de
 - An Android emulator, iOS simulator, or a physical device
 - Internet connection on first launch (the model is downloaded once)
 
-This project uses native modules (`react-native-executorch`, `react-native-pdf`, `onnxruntime-react-native`), so it **cannot run in Expo Go**. It must be run as a development build.
+This project uses native modules (`react-native-executorch`, `react-native-pdfview`), so it **cannot run in Expo Go**. It must be run as a development build.
 
 ## Installation
 
