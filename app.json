@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "lexiflow",
+    "slug": "lexiflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/light-icons/ios-icon.png",
+    "scheme": "lexiflow",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#7052FF",
+      "translucent": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/light-icons/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/light-icons/android-icon-background.png",
+        "monochromeImage": "./assets/images/light-icons/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.abdoltp.lexiflow"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/web.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splashscreen.png",
+          "imageWidth": 500,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF",
+          "dark": {
+            "backgroundColor": "#1A1A2E"
+          }
+        }
+      ],
+      "expo-asset",
+      "@config-plugins/react-native-pdf",
+      "@config-plugins/react-native-blob-util"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7c09956b-7080-4f4b-ab36-b8c443d4ee1b"
+      }
+    },
+    "owner": "abdoltp"
+  }
+}
