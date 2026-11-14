@@ -15,7 +15,7 @@ This project uses native modules (`react-native-executorch`, `react-native-pdfvi
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/lexiflow.git
+git clone https://github.com/OffcGrid/lexiflow.git
 cd lexiflow
 npm install
 ```
